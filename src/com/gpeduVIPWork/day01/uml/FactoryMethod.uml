@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gpeduVIPWork.day01.factory.factoryMethod.CarFactory</OriginalElement>
+  <nodes>
+    <node x="207.0" y="0.0">com.gpeduVIPWork.day01.product.Car</node>
+    <node x="159.0" y="304.0">com.gpeduVIPWork.day01.factory.factoryMethod.BMWFactory</node>
+    <node x="318.0" y="304.0">com.gpeduVIPWork.day01.factory.factoryMethod.AudiFactory</node>
+    <node x="207.0" y="103.0">com.gpeduVIPWork.day01.product.BMW</node>
+    <node x="159.0" y="201.0">com.gpeduVIPWork.day01.factory.factoryMethod.CarFactory</node>
+    <node x="0.0" y="103.0">com.gpeduVIPWork.day01.product.Honda</node>
+    <node x="414.0" y="103.0">com.gpeduVIPWork.day01.product.Audi</node>
+    <node x="0.0" y="304.0">com.gpeduVIPWork.day01.factory.factoryMethod.HondaFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gpeduVIPWork.day01.factory.factoryMethod.BMWFactory" target="com.gpeduVIPWork.day01.factory.factoryMethod.CarFactory">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.gpeduVIPWork.day01.product.BMW" target="com.gpeduVIPWork.day01.product.Car">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.gpeduVIPWork.day01.factory.factoryMethod.AudiFactory" target="com.gpeduVIPWork.day01.factory.factoryMethod.CarFactory">
+      <point x="0.0" y="-26.5" />
+      <point x="387.5" y="279.0" />
+      <point x="274.83333333333337" y="279.0" />
+      <point x="46.33333333333337" y="26.5" />
+    </edge>
+    <edge source="com.gpeduVIPWork.day01.product.Audi" target="com.gpeduVIPWork.day01.product.Car">
+      <point x="0.0" y="-26.5" />
+      <point x="507.5" y="78.0" />
+      <point x="362.83333333333337" y="78.0" />
+      <point x="62.33333333333337" y="26.5" />
+    </edge>
+    <edge source="com.gpeduVIPWork.day01.factory.factoryMethod.HondaFactory" target="com.gpeduVIPWork.day01.factory.factoryMethod.CarFactory">
+      <point x="0.0" y="-26.5" />
+      <point x="69.5" y="279.0" />
+      <point x="182.16666666666666" y="279.0" />
+      <point x="-46.33333333333334" y="26.5" />
+    </edge>
+    <edge source="com.gpeduVIPWork.day01.product.Honda" target="com.gpeduVIPWork.day01.product.Car">
+      <point x="0.0" y="-26.5" />
+      <point x="93.5" y="78.0" />
+      <point x="238.16666666666666" y="78.0" />
+      <point x="-62.33333333333334" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="55.0" y="94.0" />
+  <SelectedNodes>
+    <node>com.gpeduVIPWork.day01.product.Car</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
